@@ -5,4 +5,7 @@ shell:
 	poetry shell
 
 develop:
-	 uvicorn main:app --reload
+	 uvicorn app.main:app --reload
+
+test:
+	pytest
